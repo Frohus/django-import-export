@@ -598,7 +598,6 @@ class ImportMixin(BaseImportMixin, ImportExportMixinBase):
                 rows,
                 action_flag,
                 change_message=_("%s through import_export" % import_type),
-                single_object=len(rows) == 1,
             )
 
 
